@@ -6,7 +6,9 @@ More specifically, this pipeline was applied on leishmaniasis-associated HLA all
 ## Requirements
 This pipeline requires a Linux or OSX environment, however, it can also be called from Windows Subsystem for Linux.  
 It was designed and tested for R version ≥ 4.0.3.  
-Installation of R package dependencies are handled within the different R scripts, however, if this fails these can be manually installed. A list with the dependencies of each script are provided within these scripts.
+Installation of R package dependencies are handled within the different R scripts, however, if this fails these can be manually installed. A list with the dependencies of each script are provided within these scripts.  
+  
+Python is used within R through the [Reticulate](https://github.com/rstudio/reticulate/) package. Python packages that should be installed through Reticulate are: Biopython and Pandas.
 
 ## Usage
 First call the Epitope_Standardisation_Pipeline.sh script on raw prediction data like this:  
